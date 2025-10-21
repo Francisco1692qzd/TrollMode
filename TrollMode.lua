@@ -7,7 +7,7 @@ coroutine.wrap(function()
         wait(math.random(100, 210))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         if workspace:FindFirstChild("NewSeekMoving") == nil or game.ReplicatedStorage.GameData.LatestRoom.Value ~= 50 then
-            loadstring(game:HttpGet(""))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Francisco1692qzd/TrollMode/refs/heads/main/rush.lua"))()
         end
     end
 end)
@@ -18,7 +18,7 @@ coroutine.wrap(function()
         wait(math.random(200, 450))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         if workspace:FindFirstChild("NewSeekMoving") == nil or game.ReplicatedStorage.GameData.LatestRoom.Value ~= 50 then
-            loadstring(game:HttpGet(""))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Francisco1692qzd/TrollMode/refs/heads/main/ambush.lua"))()
         end
     end
 end)
@@ -29,7 +29,7 @@ coroutine.wrap(function()
         wait(math.random(70, 120))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         if workspace:FindFirstChild("NewSeekMoving") == nil or game.ReplicatedStorage.GameData.LatestRoom.Value ~= 50 then
-            loadstring(game:HttpGet(""))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Francisco1692qzd/TrollMode/refs/heads/main/trollface.lua"))()
         end
     end
 end)
